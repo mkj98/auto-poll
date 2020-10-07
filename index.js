@@ -9,4 +9,5 @@ client.on('ready', () => {
 
     poll(client)
 })
+console.log(process.env.btoken)
 client.login(process.env.btoken)
