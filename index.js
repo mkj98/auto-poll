@@ -5,9 +5,8 @@ const client = new Discord.Client()
 const poll = require('./poll')
 
 client.on('ready', () => {
-  console.log('The client is ready!')
+    console.log('The client is ready!')
 
-  poll(client)
+    poll(client)
 })
-
-client.login('NzYzMzQyNDI0ODMwNTA5MDc2.X32UCA.P_j1WExAo2q6QQuusapkcaF6MTc')
+client.login(process.env.btoken)
