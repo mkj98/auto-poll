@@ -7,6 +7,7 @@ module.exports = (client) => {
 
     const addReactions = (message) => {
         const reactYes = client.emojis.cache.get('764830590184062986');
+        console.log(reactYes);
         message.react(reactYes);
 
         setTimeout(() => {
