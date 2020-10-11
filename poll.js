@@ -2,6 +2,7 @@ module.exports = (client) => {
     const channelIds = [
         '760442107160166453', // testing
         '759533610893180948', // 3f.comics
+        '764827649667235841'
     ]
 
     const addReactions = (message) => {
