@@ -5,10 +5,10 @@ module.exports = (client) => {
     ]
 
     const addReactions = (message) => {
-        message.react('764823037874012180')
+        message.react('764830590184062986')
 
         setTimeout(() => {
-            message.react('764823734543712266')
+            message.react('764830339444768778')
         }, 750)
     }
 
