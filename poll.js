@@ -6,10 +6,12 @@ module.exports = (client) => {
     ]
 
     const addReactions = (message) => {
-        message.react('764830590184062986')
+        const reactYes = client.emojis.cache.get('764830590184062986');
+        message.react(reactYes);
 
         setTimeout(() => {
-            message.react('764830339444768778')
+            const reactNo = client.emojis.cache.get('764830339444768778');
+            message.react(reactNo)
         }, 750)
     }
 
